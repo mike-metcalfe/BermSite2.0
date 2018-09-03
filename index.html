@@ -298,14 +298,11 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus. Sit, mollitia
               quo. Veniam repellat voluptas ipsum doloremque?</p>
           </div>
-          <ul class="collection with-header">
-            <li class="collection-header">
-              <h4>Location</h4>
-            </li>
-            <li class="collection-item">Travelville Agency</li>
-            <li class="collection-item">555 Beach rd, Suite 33</li>
-            <li class="collection-item">Miami FL, 55555</li>
-          </ul>
+          <div id="map">
+            <h4>Location</h4>
+
+
+          </div>
         </div>
         <div class="col s12 m6">
           <div class="card-panel grey lighten-3">
@@ -383,6 +380,18 @@
       $('.materialboxed').materialbox();
     });
   </script>
+  <!-- Google Maps API -->
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=bermpsva2-1535995219431&callback=initMap" async defer></script>
+
 </body>
 
 </html>
