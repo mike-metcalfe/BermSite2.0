@@ -2,6 +2,15 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+  z-index: 30 !important;
+}
+
+.nav-div {
+  overflow: hidden;
+  z-index: 40;
+}
+
 .logo-pic {
   height: 64px !important;
   padding-left: 5px;
@@ -48,6 +57,10 @@ body {
 
 .section-contact h5 {
   margin-bottom: 30px;
+}
+
+.survey-card {
+  padding-top: 5vh;
 }
 
 #map {
