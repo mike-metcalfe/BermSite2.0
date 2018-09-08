@@ -38,19 +38,6 @@ nav {
   transform: skew(0deg, 5deg);
 }
 
-.section-search input {
-  padding: 5px !important;
-  font-size: 18px !important;
-  width: 90% !important;
-  border: #f4f4f4 3px solid !important;
-}
-
-.autocomplete-content {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
 .section-follow .fa-4x {
   margin: 5px 10px;
 }
@@ -61,6 +48,46 @@ nav {
 
 .survey-card {
   padding-top: 5vh;
+}
+
+#mailchimp {
+  background: #f8f8f8;
+  color: #c62828;
+  padding: 20px 15px;
+}
+#mailchimp input {
+  border: medium none;
+  color: gray;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  width: 300px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+#mailchimp input.email {
+  background: #fff;
+}
+#mailchimp input.name {
+  background: #fff;
+}
+#mailchimp input[type='submit'] {
+  background: #c62828;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  width: 75%;
+  padding: 8px 0;
+  margin-left: 7vw;
+}
+#mailchimp input[type='submit']:hover {
+  color: black;
+}
+
+input.button {
+  padding-left: 25px !important;
 }
 
 #map {
