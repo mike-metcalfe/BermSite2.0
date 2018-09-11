@@ -26,18 +26,6 @@ nav {
   margin-top: 20px;
 }
 
-.skewedBox {
-  background: #edff57;
-  padding: 0px;
-  transform: skew(0deg, -5deg);
-}
-
-.text-container-skew {
-  margin: 0;
-  padding: 2px 2px;
-  transform: skew(0deg, 5deg);
-}
-
 .section-follow .fa-4x {
   margin: 5px 10px;
 }

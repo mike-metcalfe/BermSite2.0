@@ -24,6 +24,9 @@
     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
   </style>
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
+
 </head>
 
 <body id="home" class="scrollspy">
@@ -85,35 +88,38 @@
   <section class="slider">
     <ul class="slides">
       <li>
-        <img src="img/slide1.jpg" class="responsive-img" alt="">
+        <img src="https://res.cloudinary.com/dpaddm4ok/image/upload/v1536679961/samples/landscapes/landscape-panorama.jpg"
+          class="responsive-img" alt="">
         <div class="caption center-align slider-pic-1">
           <div class="skewedBox">
-            <h2 class="grey-text text-darken-3 text-container-skew">Keep Land Public</h2>
+            <h2>Keep Land Public</h2>
           </div>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+          <h5 class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur
             adipisicing
             elit. Veniam non illo earum cumque id est!</h5>
-          <a href="#" class="btn btn-large">Learn More</a>
+          <a href="#" class="btn btn-large red">Learn More</a>
         </div>
       </li>
       <li>
-        <img src="img/slide2.jpg" class="responsive-img" alt="">
+        <img src="https://res.cloudinary.com/dpaddm4ok/image/upload/v1536679959/samples/landscapes/nature-mountains.jpg"
+          class="responsive-img" alt="">
         <div class="caption left-align">
           <h2>Help Us Keep Port Stanley Beautiful</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+          <h5 class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur
             adipisicing
             elit. Veniam non illo earum cumque id est!</h5>
-          <a href="#" class="btn btn-large">Learn More</a>
+          <a href="#" class="btn btn-large red">Learn More</a>
         </div>
       </li>
       <li>
-        <img src="img/slide3.jpg" class="responsive-img" alt="">
+        <img src="https://res.cloudinary.com/dpaddm4ok/image/upload/v1536679950/samples/landscapes/girl-urban-view.jpg"
+          class="responsive-img" alt="">
         <div class="caption right-align">
           <h2>Make Your Voice Heard!</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+          <h5 class="hide-on-small-only">Lorem ipsum dolor sit amet consectetur
             adipisicing
             elit. Veniam non illo earum cumque id est!</h5>
-          <a href="#" class="btn btn-large">Learn More</a>
+          <a href="#" class="btn btn-large red">Learn More</a>
         </div>
       </li>
     </ul>
@@ -234,7 +240,7 @@
     </div>
   </section>
 
-  <!-- Section: Popular -->
+  <!-- Section: Maps -->
   <section id="gallery" class="section section-gallery scrollspy">
     <div class="container">
       <h4 class="center">
@@ -242,16 +248,28 @@
       </h4>
       <div class="row">
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+          <a class="responsive-img" href="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg"
+            data-fancybox="map-gallery" data-caption="This image has simple caption">
+            <img class="responsive-img" src="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg" />
+          </a>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travel" alt="">
+          <a class="responsive-img" href="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg"
+            data-fancybox="map-gallery" data-caption="This image has simple caption">
+            <img class="responsive-img" src="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg" />
+          </a>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+          <a class="responsive-img" href="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg"
+            data-fancybox="map-gallery" data-caption="This image has simple caption">
+            <img class="responsive-img" src="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg" />
+          </a>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach, travel" alt="">
+          <a class="responsive-img" href="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg"
+            data-fancybox="map-gallery" data-caption="This image has simple caption">
+            <img class="responsive-img" src="http://res.cloudinary.com/dpaddm4ok/image/upload/v1536679952/samples/people/boy-snow-hoodie.jpg" />
+          </a>
         </div>
       </div>
 
@@ -285,7 +303,7 @@
           <a href="https://www.facebook.com" target="_blank" class="white-text">
             <i class="fab fa-facebook fa-4x"></i>
           </a>
-          <a href="https://www.twitter.com" target="_blank" class="white-text">
+          <a href="https://www.twitter.com/portstanleyberm" target="_blank" class="white-text">
             <i class="fab fa-twitter fa-4x"></i>
           </a>
           <a href="https://www.instagram.com" target="_blank" class="white-text">
@@ -305,16 +323,28 @@
       </h4>
       <div class="row">
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+          <a class="responsive-img" href="https://source.unsplash.com/1600x900/?beaches" data-fancybox="gallery"
+            data-caption="This image has simple caption">
+            <img class="responsive-img" src="https://source.unsplash.com/1600x900/?beaches" />
+          </a>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travel" alt="">
+          <a class="responsive-img" href="https://source.unsplash.com/1600x900/?beaches" data-fancybox="gallery"
+            data-caption="This image has simple caption">
+            <img class="responsive-img" src="https://source.unsplash.com/1600x900/?beaches" />
+          </a>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+          <a class="responsive-img" href="https://source.unsplash.com/1600x900/?beaches" data-fancybox="gallery"
+            data-caption="This image has simple caption">
+            <img class="responsive-img" src="https://source.unsplash.com/1600x900/?beaches" />
+          </a>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach, travel" alt="">
+          <a class="responsive-img" href="https://source.unsplash.com/1600x900/?beaches" data-fancybox="gallery"
+            data-caption="This image has simple caption">
+            <img class="responsive-img" src="https://source.unsplash.com/1600x900/?beaches" />
+          </a>
         </div>
       </div>
 
@@ -395,7 +425,6 @@
     <p class="flow-text">PSVA: Berm Sub-Committee&copy; 2018</p>
   </footer>
 
-
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -439,6 +468,12 @@
       $('.materialboxed').materialbox();
     });
   </script>
+  <!-- JS For FancyBox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+  <script>$('[data-fancybox="gallery"]').fancybox({
+      // Options will go here
+    });</script>
+
   <!-- Google Maps API -->
   <script>
 
