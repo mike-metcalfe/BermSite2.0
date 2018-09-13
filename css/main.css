@@ -85,3 +85,32 @@ input.button {
 .map-div {
   height: 438px;
 }
+
+.contact-header {
+  padding-bottom: 25px;
+  text-decoration: underline;
+}
+
+.input-field input[type='text']:focus + label {
+  color: #c62828;
+}
+
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid rgb(196, 26, 26) !important;
+  box-shadow: 0 1px 0 0 rgb(206, 46, 46) !important;
+}
+
+.input-field input[type='email']:focus {
+  border-bottom: 1px solid rgb(196, 26, 26) !important;
+  box-shadow: 0 1px 0 0 rgb(206, 46, 46) !important;
+}
+
+.materialize-textarea:focus {
+  border-bottom: 1px solid rgb(196, 26, 26) !important;
+  box-shadow: 0 1px 0 0 rgb(206, 46, 46) !important;
+}
+
+/* label focus color */
+.input-field input[type='text']:focus + label {
+  color: #000;
+}
